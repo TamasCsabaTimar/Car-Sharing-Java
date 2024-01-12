@@ -1,0 +1,45 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: "import java.util.*;\n\ninterface BookDao {\n\n    void add(Book book);\n\n\
+    \    Book get(int id);\n\n    void update(Book book);\n\n    void delete(int id);\n\
+    }\n\nclass BookDaoImpl implements BookDao {\n    private final Map<Integer, Book>\
+    \ books;\n\n    public BookDaoImpl() {\n        this.books = new HashMap<>();\n\
+    \    }\n\n    @Override\n    public void add(Book book) {\n        // write your\
+    \ code here\n    }\n\n    @Override\n    public Book get(int id) {\n        //\
+    \ write your code here\n    }\n\n    @Override\n    public void update(Book book)\
+    \ {\n        // write your code here\n    }\n\n    @Override\n    public void\
+    \ delete(int id) {\n        // write your code here\n    }\n}\n\nclass Book {\n\
+    \    private int id;\n    private String title;\n\n    public Book(int id, String\
+    \ title) {\n        this.id = id;\n        this.title = title;\n    }\n\n    public\
+    \ String getTitle() {\n        return title;\n    }\n\n    public void setTitle(String\
+    \ title) {\n        this.title = title;\n    }\n\n    public int getId() {\n \
+    \       return id;\n    }\n\n    public void setId(int id) {\n        this.id\
+    \ = id;\n    }\n\n    @Override\n    public String toString() {\n        return\
+    \ \"Book [id \" + id + \", title : \" + title + \"]\";\n    }\n}\n\n/* Do not\
+    \ change code below */\npublic class Main {\n    public static void main(String[]\
+    \ args) {\n        Scanner scanner = new Scanner(System.in); \n        BookDao\
+    \ bookDao = new BookDaoImpl();\n\n        int id1 = scanner.nextInt();\n     \
+    \   scanner.nextLine();\n        String title1 = scanner.nextLine();\n       \
+    \ Book book1 = new Book(id1, title1);\n\n        int id2 = scanner.nextInt();\n\
+    \        scanner.nextLine();\n        String title2 = scanner.nextLine();\n  \
+    \      Book book2 = new Book(id2, title2);\n\n        int inexistentId = scanner.nextInt();\n\
+    \n        bookDao.add(book1);\n        bookDao.add(book2);\n\n        // get first\n\
+    \        System.out.println(\"Found \" + bookDao.get(book1.getId()));\n\n    \
+    \    // get inexistent book\n        if (bookDao.get(inexistentId) == null) {\n\
+    \            System.out.println(\"Not found id \" + inexistentId);\n        }\n\
+    \n        // update and get\n        Book updatedBook = bookDao.get(book2.getId());\n\
+    \        System.out.println(\"Found \" + updatedBook);\n        updatedBook.setTitle(\"\
+    UPDATED\");\n        bookDao.update(updatedBook);\n        System.out.println(\"\
+    Updated \" + bookDao.get(book2.getId()));\n\n        // delete\n        bookDao.delete(book2.getId());\n\
+    \        if (bookDao.get(book2.getId()) == null) {\n            System.out.println(\"\
+    Deleted id: \" + book2.getId());\n        }\n    }\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/20197#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 10 Jan 2024 06:31:45 UTC"
+record: -1
+submission_language: java11

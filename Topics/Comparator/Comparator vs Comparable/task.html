@@ -1,0 +1,24 @@
+<h2>Comparator vs Comparable</h2>
+<div class="step-text">
+<p></p>
+<p>Imagine that you are developing a back-end solution for an online video game store and you have designed some domain-specific abstractions for this purpose:</p>
+<pre><code class="language-java">class Rating {
+    private int userRating;
+}
+
+class VideoGame {
+    private String title;
+    private List&lt;String&gt; keywords;
+    private int copiesSold;
+    private double price;
+    private Rating rating;
+}
+
+class Customer {
+    private String username;
+    private List&lt;VideoGame&gt; games;
+    private Map&lt;Rating, VideoGame&gt; reviews;
+    private boolean premium;
+}</code></pre>
+<p>Implementing the business logic, you will eventually need to compare and sort customers, video games, and ratings. Which of the available Java interfaces fits better for comparing instances of each of these classes?</p>
+</div>

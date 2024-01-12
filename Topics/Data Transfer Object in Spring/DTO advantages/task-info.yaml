@@ -1,0 +1,31 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Hiding unnecessary data or protecting sensitive information
+  - text: Decoupling business logic from the communication layer
+  - text: Preventing breaking changes in the API during updates of the application model
+  - text: Avoiding multiple calls to the remote server
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/25615#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 11 Jan 2024 23:01:43 UTC"
+record: -1
+selected_options:
+  - 0
+  - 1
+  - 2
+  - 3
+local_check: false

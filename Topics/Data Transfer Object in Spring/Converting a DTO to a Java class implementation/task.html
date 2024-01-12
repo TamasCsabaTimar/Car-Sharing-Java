@@ -1,0 +1,29 @@
+<h2>Converting a DTO to a Java class implementation</h2>
+<div class="step-text">
+<p></p><p>You have a class called <code class="language-java">Product</code> in your project:</p><pre><code class="language-java">class Product {
+    private long id;
+    private String model;
+    private int price;
+    private LocalDate dateOfArrival;
+    private String vendor;
+
+    public Product(long id, String model, int price, LocalDate dateOfArrival, String vendor) {
+        this.id = id;
+        this.model = model;
+        this.price = price;
+        this.dateOfArrival = dateOfArrival;
+        this.vendor = vendor;
+    }
+
+    public Product() {}
+
+    //getters and setters
+}
+</code></pre><p>The DTO of the class looks like this:</p><pre><code class="language-java">class ProductDTO {
+    private long id;
+    private String model;
+    private int price;
+    
+    //constructors, getters, and setters
+}</code></pre><p>Write a function that converts a <code class="language-java">ProductDTO</code> to a <code class="language-java">Product</code> object. Your company has only one vendor named "SuperVendor" so far. The date of arrival is the 15th of January, 2023.</p><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">No input.</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">Good job!</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 5 seconds</font><br><br>
+</div>

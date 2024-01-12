@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Car Sharing/task" />
+            <option value="$PROJECT_DIR$/Car Sharing/task/build/classes/java" />
+            <option value="$PROJECT_DIR$/Car Sharing/task/build/generated/sources/annotationProcessor/java" />
+            <option value="$PROJECT_DIR$/Car Sharing/task/build/generated/sources/headers/java" />
+            <option value="$PROJECT_DIR$/Car Sharing/task/build/reports/tests" />
+            <option value="$PROJECT_DIR$/Car Sharing/task/build/test-results" />
+            <option value="$PROJECT_DIR$/Car Sharing/task/build/tmp" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Comparator vs Comparable" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Method name" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Multiple fields" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Non-abstract methods" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Sort users" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Data Access Object for JDBC/DAO pattern in use" />
+            <option value="$PROJECT_DIR$/Topics/Data Access Object for JDBC/DAO pattern interface declaration" />
+            <option value="$PROJECT_DIR$/Topics/Data Access Object for JDBC/DAO pattern usage" />
+            <option value="$PROJECT_DIR$/Topics/Data Access Object for JDBC/Data stores usage" />
+            <option value="$PROJECT_DIR$/Topics/Data Access Object for JDBC/Map-based implementation" />
+            <option value="$PROJECT_DIR$/Topics/Data Access Object for JDBC/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Data Transfer Object in Spring/Converting a DTO to a Java class implementation" />
+            <option value="$PROJECT_DIR$/Topics/Data Transfer Object in Spring/Converting a Java class to a DTO implementation" />
+            <option value="$PROJECT_DIR$/Topics/Data Transfer Object in Spring/DTO advantages" />
+            <option value="$PROJECT_DIR$/Topics/Data Transfer Object in Spring/Theory" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: We can use the DAO pattern to declare abstract methods for data storage manipulations
+  - text: We can use the DAO pattern for web searching methods
+  - text: We can use the DAO pattern to describe private fields in our class
+  - text: We can use the DAO pattern in collections for methods updates
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/20193#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 10 Jan 2024 05:35:33 UTC"
+record: -1
+selected_options:
+  - 0
+local_check: false
